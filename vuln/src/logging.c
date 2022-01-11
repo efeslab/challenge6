@@ -49,7 +49,7 @@ void crc32(const void *data, size_t n_bytes, unsigned char* ret_buff) {
 /** CRC32 is too slow to execute symbolically.
   * I guess that 7 minutes is not THAT bad,
   * but that's more than I had patience to wait.
-  * This is a face CRC32.
+  * This is a fake CRC32.
   */
 
 void crc32(const void *data, size_t n_bytes, unsigned char* ret_buff) {
